@@ -21,6 +21,7 @@ export default defineConfig({
         about: fileURLToPath(new URL('./about.html', import.meta.url)),
         work: fileURLToPath(new URL('./work.html', import.meta.url)),
         contact: fileURLToPath(new URL('./contact.html', import.meta.url)),
+        ed: fileURLToPath(new URL('./ed-cases.html', import.meta.url)),
         gst: fileURLToPath(new URL('./gst-advisory.html', import.meta.url)),
         msme: fileURLToPath(new URL('./msme-commercial-litigation.html', import.meta.url)),
       },

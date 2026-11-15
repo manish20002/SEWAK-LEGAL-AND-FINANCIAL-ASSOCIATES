@@ -16,7 +16,8 @@ if (
   page !== 'work' &&
   page !== 'contact' &&
   page !== 'gst' &&
-  page !== 'msme'
+  page !== 'msme' &&
+  page !== 'ed'
 ) {
   throw new Error(`Unknown website page: ${page ?? 'missing data-page'}`)
 }

@@ -2,6 +2,7 @@
 import { ref, watch } from 'vue'
 import AboutPage from './pages/AboutPage.vue'
 import ContactPage from './pages/ContactPage.vue'
+import EdCasesPage from './pages/EdCasesPage.vue'
 import GstAdvisoryPage from './pages/GstAdvisoryPage.vue'
 import HomePage from './pages/HomePage.vue'
 import MsmeLitigationPage from './pages/MsmeLitigationPage.vue'
@@ -9,7 +10,7 @@ import WorkPage from './pages/WorkPage.vue'
 import { assetUrl } from './utils/assets'
 import { loadPageViewAnalytics, removeAnalyticsCookies } from './utils/googleAnalytics'
 
-type SitePage = 'home' | 'about' | 'work' | 'contact' | 'gst' | 'msme'
+type SitePage = 'home' | 'about' | 'work' | 'contact' | 'ed' | 'gst' | 'msme'
 
 defineProps<{ page: SitePage }>()
 
@@ -92,7 +93,11 @@ const saveCookieConsent = (value: CookieConsent) => {
       <nav id="primary-navigation" class="navigation" :class="{ 'is-open': menuOpen }" aria-label="Main navigation">
         <a href="./index.html" :aria-current="page === 'home' ? 'page' : undefined" @click="closeMenu">Home</a>
         <a href="./about.html" :aria-current="page === 'about' ? 'page' : undefined" @click="closeMenu">About</a>
-        <a href="./work.html" :aria-current="page === 'work' ? 'page' : undefined" @click="closeMenu">Services</a>
+        <a
+          href="./work.html"
+          :aria-current="page === 'work' || page === 'ed' || page === 'gst' || page === 'msme' ? 'page' : undefined"
+          @click="closeMenu"
+        >Services</a>
         <a class="nav-contact" href="./contact.html" :aria-current="page === 'contact' ? 'page' : undefined" @click="closeMenu">
           Contact us <span aria-hidden="true">↗</span>
         </a>
@@ -135,6 +140,7 @@ const saveCookieConsent = (value: CookieConsent) => {
       <AboutPage v-else-if="page === 'about'" />
       <WorkPage v-else-if="page === 'work'" />
       <ContactPage v-else-if="page === 'contact'" />
+      <EdCasesPage v-else-if="page === 'ed'" />
       <GstAdvisoryPage v-else-if="page === 'gst'" />
       <MsmeLitigationPage v-else />
     </main>
@@ -159,6 +165,7 @@ const saveCookieConsent = (value: CookieConsent) => {
 
         <nav class="footer-link-group" aria-label="Services">
           <h2>Services</h2>
+          <a href="./ed-cases.html">ED &amp; Economic Offences</a>
           <a href="./gst-advisory.html">GST &amp; Indirect Tax Advisory</a>
           <a href="./msme-commercial-litigation.html">MSME Rights &amp; Commercial Litigation</a>
         </nav>

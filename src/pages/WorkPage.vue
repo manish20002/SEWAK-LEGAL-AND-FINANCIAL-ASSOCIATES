@@ -155,7 +155,18 @@ import { assetUrl } from '../utils/assets'
       </div>
       <div class="service-overview-grid">
         <article class="service-overview-card">
-          <span class="card-index">01 / TAX &amp; COMPLIANCE</span>
+          <span class="card-index">01 / ED &amp; ECONOMIC OFFENCES</span>
+          <h3>Enforcement Directorate (ED) Cases</h3>
+          <p>
+            Representation and advisory in appropriate PMLA and FEMA matters, including summons,
+            investigations, attachment proceedings, and appeals.
+          </p>
+          <a class="text-link text-link-dark" href="./ed-cases.html">
+            Explore ED case services <span aria-hidden="true">↗</span>
+          </a>
+        </article>
+        <article class="service-overview-card">
+          <span class="card-index">02 / TAX &amp; COMPLIANCE</span>
           <h3>GST &amp; Indirect Tax Advisory</h3>
           <p>
             GST reconciliations, ITC support, reverse charge, voluntary payments, and tax
@@ -166,7 +177,7 @@ import { assetUrl } from '../utils/assets'
           </a>
         </article>
         <article class="service-overview-card">
-          <span class="card-index">02 / DISPUTES &amp; RECOVERY</span>
+          <span class="card-index">03 / DISPUTES &amp; RECOVERY</span>
           <h3>MSME Rights &amp; Commercial Litigation</h3>
           <p>
             Support with delayed-payment recovery, commercial contract enforcement, and e-commerce

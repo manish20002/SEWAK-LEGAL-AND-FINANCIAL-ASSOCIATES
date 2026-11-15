@@ -6,7 +6,7 @@ import { assetUrl } from '../utils/assets'
   <div>
     <section class="page-hero service-hero">
       <div class="page-hero-content">
-        <p class="eyebrow"><span></span> Service 02 / Disputes &amp; recovery</p>
+        <p class="eyebrow"><span></span> Service 03 / Disputes &amp; recovery</p>
         <h1>MSME Rights &amp;<br /><em>Commercial Litigation.</em></h1>
         <p>Protecting your working capital and commercial interests.</p>
       </div>

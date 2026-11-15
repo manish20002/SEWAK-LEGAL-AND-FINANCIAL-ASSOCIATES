@@ -6,7 +6,7 @@ import { assetUrl } from '../utils/assets'
   <div>
     <section class="page-hero service-hero">
       <div class="page-hero-content">
-        <p class="eyebrow"><span></span> Service 01 / Tax &amp; compliance</p>
+        <p class="eyebrow"><span></span> Service 02 / Tax &amp; compliance</p>
         <h1>GST &amp; Indirect<br /><em>Tax Advisory.</em></h1>
         <p>Navigating complex tax frameworks with precision.</p>
       </div>
