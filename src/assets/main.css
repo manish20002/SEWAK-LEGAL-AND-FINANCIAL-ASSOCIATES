@@ -1750,13 +1750,6 @@ h2 {
   margin-top: 12px;
 }
 
-.ed-scope-note {
-  padding: 12px 14px;
-  border-left: 2px solid #c5a35b;
-  background: #f0eee8;
-}
-
-.ed-scope-note strong,
 .ed-matters h4 {
   color: var(--navy);
 }

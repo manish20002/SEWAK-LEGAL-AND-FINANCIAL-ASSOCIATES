@@ -47,11 +47,6 @@ import { assetUrl } from '../utils/assets'
               offence is generally handled by the agency with jurisdiction over that offence. FEMA
               matters concern alleged contraventions of foreign-exchange law.
             </p>
-            <p class="ed-scope-note">
-              <strong>Scope:</strong> We advise and represent clients in appropriate PMLA and FEMA
-              matters. Available remedies depend on the facts, applicable law, and the stage of
-              proceedings; no particular outcome is guaranteed.
-            </p>
           </div>
           <div class="ed-matters">
             <h4>Types of ED matters we assist with</h4>
