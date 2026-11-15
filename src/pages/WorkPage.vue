@@ -6,20 +6,127 @@ import { assetUrl } from '../utils/assets'
   <div>
     <section class="page-hero page-hero-work">
       <div class="page-hero-content">
-        <p class="eyebrow"><span></span> How we can support you</p>
-        <h1>Our work &amp;<br /><em>projects.</em></h1>
+        <p class="eyebrow"><span></span> Representative engagements</p>
+        <h1>Complex matters.<br /><em>Clear direction.</em></h1>
         <p>
-          Specialized legal and tax support shaped around the operational realities of growing
-          businesses.
+          Legal, tax, and financial support for high-stakes regulatory and commercial matters.
         </p>
       </div>
       <img class="page-hero-logo" :src="assetUrl('images/logo.jpeg')" alt="Sewak rising-arrow monogram" />
     </section>
 
+    <section class="engagements-section" aria-labelledby="engagements-title">
+      <div class="section-topline">
+        <span class="eyebrow"><span></span> Representative engagements</span>
+        <span class="section-index">01 / SELECTED MATTER TYPES</span>
+      </div>
+      <div class="engagements-heading">
+        <h2 id="engagements-title">Work &amp; projects.<br /><em>Representative engagements.</em></h2>
+        <p>
+          Under the leadership of Amit Marda, our team has represented enterprises, promoters, and
+          high-net-worth individuals in complex regulatory, tax, and commercial matters. The
+          summaries below describe the nature of the mandates while withholding client identities
+          and specific case details.
+        </p>
+      </div>
+      <div class="engagement-grid">
+        <article class="engagement-card engagement-card-featured">
+          <div class="engagement-card-heading">
+            <span class="card-index">01 / ED &amp; ECONOMIC OFFENCES</span>
+            <h3>Enforcement Directorate (ED) &amp; Economic Offences</h3>
+            <p>
+              Investigations require an intricate understanding of corporate finance and penal
+              statutes. We provide legal representation and strategic advisory in matters involving
+              economic offences.
+            </p>
+          </div>
+          <ul class="engagement-capabilities">
+            <li>
+              <strong>PMLA &amp; FEMA defence:</strong> Representation for corporate entities and
+              individuals facing investigations under the Prevention of Money Laundering Act
+              (PMLA) and the Foreign Exchange Management Act (FEMA).
+            </li>
+            <li>
+              <strong>Asset attachment &amp; adjudication:</strong> Defence against Provisional
+              Attachment Orders and representation before the Adjudicating Authority (PMLA).
+            </li>
+            <li>
+              <strong>Summons, search &amp; seizure:</strong> Advisory and legal support during
+              search and seizure operations, and preparation for questioning and summons under
+              Section 50 of the PMLA.
+            </li>
+            <li>
+              <strong>Appellate &amp; High Court representation:</strong> Statutory appeals before
+              the Appellate Tribunal (PMLA) and writ petitions concerning ECIRs and look-out
+              circulars (LOCs).
+            </li>
+          </ul>
+        </article>
+
+        <article class="engagement-card">
+          <span class="card-index">02 / GST &amp; DIRECT TAX</span>
+          <h3>High-Stakes Tax Litigation</h3>
+          <ul class="engagement-capabilities">
+            <li>
+              Representation before GST appellate authorities in matters involving ITC mismatches,
+              alleged fake invoicing, and classification disputes.
+            </li>
+            <li>
+              Writ proceedings seeking relief from frozen Input Tax Credit ledgers and corporate
+              bank accounts.
+            </li>
+            <li>
+              Legal and financial reconciliation support during search and survey proceedings by
+              DGGI and Income Tax authorities.
+            </li>
+          </ul>
+        </article>
+
+        <article class="engagement-card">
+          <span class="card-index">03 / DISPUTES &amp; RECOVERY</span>
+          <h3>Commercial Dispute Resolution &amp; Debt Recovery</h3>
+          <ul class="engagement-capabilities">
+            <li>
+              Section 18 proceedings under the MSMED Act through MSME Samadhaan, including claims
+              for delayed payments and applicable compound interest.
+            </li>
+            <li>
+              Civil litigation and arbitration involving vendor agreements, non-disclosure
+              obligations, and real estate joint ventures.
+            </li>
+            <li>
+              Negotiated settlements in commercial disputes, with a focus on practical resolution
+              and preserving business relationships.
+            </li>
+          </ul>
+        </article>
+
+        <article class="engagement-card">
+          <span class="card-index">04 / FINANCIAL STRUCTURING</span>
+          <h3>Complex Financial Structuring &amp; Audits</h3>
+          <ul class="engagement-capabilities">
+            <li>
+              Enterprise-wide GST and ERP restructuring for high-volume trading and manufacturing,
+              including GSTR-2B reconciliation processes.
+            </li>
+            <li>
+              Internal compliance audits to identify TDS/TCS shortfalls and historical accounting
+              issues for timely review and rectification.
+            </li>
+          </ul>
+        </article>
+      </div>
+      <p class="engagement-disclaimer">
+        <strong>Disclaimer:</strong> In strict adherence to the Bar Council of India regulations and
+        our internal confidentiality policies, the identities of our clients and specific case
+        details have been withheld.
+      </p>
+    </section>
+
     <section class="work work-page-content">
       <div class="section-topline">
         <span class="eyebrow"><span></span> Dedicated services</span>
-        <span class="section-index">01 / OUR WORK</span>
+        <span class="section-index">02 / OUR SERVICES</span>
       </div>
       <div class="work-heading">
         <h2>Focused expertise.<br /><em>Practical outcomes.</em></h2>
@@ -57,7 +164,7 @@ import { assetUrl } from '../utils/assets'
     <section class="industries-section">
       <div class="section-topline">
         <span class="eyebrow"><span></span> Industries we serve</span>
-        <span class="section-index">02 / INDUSTRIES</span>
+        <span class="section-index">03 / INDUSTRIES</span>
       </div>
       <h2>Advice grounded in<br /><em>your industry.</em></h2>
       <p class="section-lead">
@@ -103,7 +210,7 @@ import { assetUrl } from '../utils/assets'
     <section class="process-section">
       <div class="section-topline">
         <span class="eyebrow"><span></span> The Sewak process</span>
-        <span class="section-index">03 / HOW WE WORK</span>
+        <span class="section-index">04 / HOW WE WORK</span>
       </div>
       <h2>Clear steps.<br /><em>Steady progress.</em></h2>
       <div class="process-grid">
@@ -146,7 +253,7 @@ import { assetUrl } from '../utils/assets'
     <section class="faq-section">
       <div class="section-topline">
         <span class="eyebrow"><span></span> Frequently asked questions</span>
-        <span class="section-index">04 / FAQ</span>
+        <span class="section-index">05 / FAQ</span>
       </div>
       <h2>Good questions.<br /><em>Clear answers.</em></h2>
       <div class="faq-list">
