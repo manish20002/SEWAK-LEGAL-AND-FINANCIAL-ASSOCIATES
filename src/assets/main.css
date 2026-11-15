@@ -2408,7 +2408,8 @@ h2 {
 :root[data-theme='dark'] .industries-section,
 :root[data-theme='dark'] .engagements-section,
 :root[data-theme='dark'] .faq-section,
-:root[data-theme='dark'] .contact-form {
+:root[data-theme='dark'] .contact-form,
+:root[data-theme='dark'] .service-detail {
   background: #172635;
 }
 
