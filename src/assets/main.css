@@ -1746,6 +1746,29 @@ h2 {
   line-height: 1.8;
 }
 
+.engagement-card-heading > p + p {
+  margin-top: 12px;
+}
+
+.ed-scope-note {
+  padding: 12px 14px;
+  border-left: 2px solid #c5a35b;
+  background: #f0eee8;
+}
+
+.ed-scope-note strong,
+.ed-matters h4 {
+  color: var(--navy);
+}
+
+.ed-matters h4 {
+  margin: 0 0 15px;
+  font-family: var(--serif);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
 .engagement-capabilities {
   display: grid;
   gap: 14px;
@@ -2100,6 +2123,10 @@ h2 {
   .engagement-card-featured {
     display: block;
     padding: 22px;
+  }
+
+  .ed-matters {
+    margin-top: 24px;
   }
 
   .engagement-card h3 {

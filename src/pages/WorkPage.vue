@@ -35,32 +35,55 @@ import { assetUrl } from '../utils/assets'
             <span class="card-index">01 / ED &amp; ECONOMIC OFFENCES</span>
             <h3>Enforcement Directorate (ED) &amp; Economic Offences</h3>
             <p>
-              Investigations require an intricate understanding of corporate finance and penal
-              statutes. We provide legal representation and strategic advisory in matters involving
-              economic offences.
+              <strong>What is the ED?</strong> The Directorate of Enforcement (ED) is a Government
+              of India financial-investigation agency that enforces laws concerning anti-money
+              laundering and foreign-exchange management, including the Prevention of Money
+              Laundering Act (PMLA), the Foreign Exchange Management Act (FEMA), and the Fugitive
+              Economic Offenders Act (FEOA).
+            </p>
+            <p>
+              Under the PMLA, the ED investigates the alleged laundering of proceeds of crime
+              connected with scheduled offences. The investigation of the underlying scheduled
+              offence is generally handled by the agency with jurisdiction over that offence. FEMA
+              matters concern alleged contraventions of foreign-exchange law.
+            </p>
+            <p class="ed-scope-note">
+              <strong>Scope:</strong> Our services described here focus on appropriate PMLA and
+              FEMA matters. Available remedies depend on the facts, applicable law, and the stage
+              of proceedings; no particular outcome is guaranteed.
             </p>
           </div>
-          <ul class="engagement-capabilities">
-            <li>
-              <strong>PMLA &amp; FEMA defence:</strong> Representation for corporate entities and
-              individuals facing investigations under the Prevention of Money Laundering Act
-              (PMLA) and the Foreign Exchange Management Act (FEMA).
-            </li>
-            <li>
-              <strong>Asset attachment &amp; adjudication:</strong> Defence against Provisional
-              Attachment Orders and representation before the Adjudicating Authority (PMLA).
-            </li>
-            <li>
-              <strong>Summons, search &amp; seizure:</strong> Advisory and legal support during
-              search and seizure operations, and preparation for questioning and summons under
-              Section 50 of the PMLA.
-            </li>
-            <li>
-              <strong>Appellate &amp; High Court representation:</strong> Statutory appeals before
-              the Appellate Tribunal (PMLA) and writ petitions concerning ECIRs and look-out
-              circulars (LOCs).
-            </li>
-          </ul>
+          <div class="ed-matters">
+            <h4>Types of ED matters we assist with</h4>
+            <ul class="engagement-capabilities">
+              <li>
+                <strong>PMLA investigations and summons:</strong> Advice and representation in
+                response to notices and summons, including summons under Section 50 of the PMLA,
+                and in related investigation or prosecution proceedings.
+              </li>
+              <li>
+                <strong>Search, seizure, and court proceedings:</strong> Legal assistance during
+                PMLA-related searches or seizures and representation in connected court
+                proceedings.
+              </li>
+              <li>
+                <strong>Provisional attachment of property:</strong> Responses to attachment
+                proceedings, representation before the PMLA Adjudicating Authority, and related
+                appellate proceedings.
+              </li>
+              <li>
+                <strong>FEMA investigations and adjudication:</strong> Advice on alleged
+                foreign-exchange contraventions involving remittances, foreign investment,
+                overseas holdings, external borrowings, or export proceeds, and representation
+                in related proceedings.
+              </li>
+              <li>
+                <strong>Appeals and High Court proceedings:</strong> Statutory appeals and court
+                challenges to ED actions, including matters involving ECIRs or look-out circulars
+                (LOCs), where the facts and law support a remedy.
+              </li>
+            </ul>
+          </div>
         </article>
 
         <article class="engagement-card">
