@@ -1,6 +1,3 @@
-갖Here is the content for your GitHub `README.md` file. It is structured to be professional, explain the project, and give clear instructions on how to use or modify the repository.
-
-```md
 # Sewak Legal and Financial Associates LLP - Website
 
 Welcome to the official repository for the website of **Sewak Legal and Financial Associates LLP**, a premier multidisciplinary corporate advisory firm based in Hyderabad, India. 
@@ -46,6 +43,7 @@ If you want to run this website on your local machine for development or testing
     ```
 3.  **Open the site:**
     Simply open the `index.html` file in your preferred web browser, or use a tool like Live Server in VS Code for a better development experience.
+
 
 ## 📝 License
 Copyright © 2026 Sewak Legal and Financial Associates LLP. All rights reserved. 
