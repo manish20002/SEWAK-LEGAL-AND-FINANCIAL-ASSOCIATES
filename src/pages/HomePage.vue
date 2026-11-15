@@ -56,7 +56,7 @@ import { assetUrl } from '../utils/assets'
     <section class="home-work">
       <div class="section-topline">
         <span class="eyebrow"><span></span> How we can support you</span>
-        <a class="text-link text-link-dark" href="./work.html">View our work <span aria-hidden="true">↗</span></a>
+        <a class="text-link text-link-dark" href="./work.html">View services <span aria-hidden="true">↗</span></a>
       </div>
       <div class="home-work-items">
         <article><span>01</span><h3>Legal advisory</h3></article>

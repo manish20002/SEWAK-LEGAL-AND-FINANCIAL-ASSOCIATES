@@ -21,7 +21,7 @@ import { assetUrl } from '../utils/assets'
         <span class="section-index">01 / SELECTED MATTER TYPES</span>
       </div>
       <div class="engagements-heading">
-        <h2 id="engagements-title">Work &amp; projects.<br /><em>Representative engagements.</em></h2>
+        <h2 id="engagements-title">Services.<br /><em>Representative engagements.</em></h2>
         <p>
           Under the leadership of Amit Marda, our team has represented enterprises, promoters, and
           high-net-worth individuals in complex regulatory, tax, and commercial matters. The

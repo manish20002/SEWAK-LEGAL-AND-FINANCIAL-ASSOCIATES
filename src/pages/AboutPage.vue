@@ -194,7 +194,7 @@ import { assetUrl } from '../utils/assets'
         </p>
       </div>
       <div class="about-cta-actions">
-        <a class="button button-gold" href="./work.html">Explore work &amp; projects <span aria-hidden="true">↗</span></a>
+        <a class="button button-gold" href="./work.html">Explore services <span aria-hidden="true">↗</span></a>
         <a class="text-link" href="./contact.html">Start a conversation <span aria-hidden="true">↗</span></a>
       </div>
     </section>

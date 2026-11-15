@@ -92,7 +92,7 @@ const saveCookieConsent = (value: CookieConsent) => {
       <nav id="primary-navigation" class="navigation" :class="{ 'is-open': menuOpen }" aria-label="Main navigation">
         <a href="./index.html" :aria-current="page === 'home' ? 'page' : undefined" @click="closeMenu">Home</a>
         <a href="./about.html" :aria-current="page === 'about' ? 'page' : undefined" @click="closeMenu">About</a>
-        <a href="./work.html" :aria-current="page === 'work' ? 'page' : undefined" @click="closeMenu">Work &amp; Projects</a>
+        <a href="./work.html" :aria-current="page === 'work' ? 'page' : undefined" @click="closeMenu">Services</a>
         <a class="nav-contact" href="./contact.html" :aria-current="page === 'contact' ? 'page' : undefined" @click="closeMenu">
           Contact us <span aria-hidden="true">↗</span>
         </a>
@@ -153,7 +153,7 @@ const saveCookieConsent = (value: CookieConsent) => {
           <h2>Explore</h2>
           <a href="./index.html">Home</a>
           <a href="./about.html">About</a>
-          <a href="./work.html">Work &amp; Projects</a>
+          <a href="./work.html">Services</a>
           <a href="./contact.html">Contact us</a>
         </nav>
 
