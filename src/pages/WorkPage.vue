@@ -48,9 +48,9 @@ import { assetUrl } from '../utils/assets'
               matters concern alleged contraventions of foreign-exchange law.
             </p>
             <p class="ed-scope-note">
-              <strong>Scope:</strong> Our services described here focus on appropriate PMLA and
-              FEMA matters. Available remedies depend on the facts, applicable law, and the stage
-              of proceedings; no particular outcome is guaranteed.
+              <strong>Scope:</strong> We advise and represent clients in appropriate PMLA and FEMA
+              matters. Available remedies depend on the facts, applicable law, and the stage of
+              proceedings; no particular outcome is guaranteed.
             </p>
           </div>
           <div class="ed-matters">
