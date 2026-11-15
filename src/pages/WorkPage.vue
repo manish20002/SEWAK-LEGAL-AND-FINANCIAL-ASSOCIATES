@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import { assetUrl } from '../utils/assets'
+</script>
+
 <template>
   <div>
     <section class="page-hero page-hero-work">
@@ -9,7 +13,7 @@
           businesses.
         </p>
       </div>
-      <img class="page-hero-logo" src="/images/logo.jpeg" alt="Sewak rising-arrow monogram" />
+      <img class="page-hero-logo" :src="assetUrl('images/logo.jpeg')" alt="Sewak rising-arrow monogram" />
     </section>
 
     <section class="work work-page-content">

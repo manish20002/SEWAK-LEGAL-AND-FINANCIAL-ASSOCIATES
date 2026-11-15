@@ -3,6 +3,11 @@ import './assets/main.css'
 import { createApp } from 'vue'
 import App from './App.vue'
 
+document.documentElement.style.setProperty(
+  '--banner-image',
+  `url("${import.meta.env.BASE_URL}images/banner.jpeg")`,
+)
+
 const page = document.body.dataset.page
 
 if (

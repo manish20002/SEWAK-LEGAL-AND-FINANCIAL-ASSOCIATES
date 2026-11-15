@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import { assetUrl } from '../utils/assets'
 
 const messageStatus = ref('')
 
@@ -20,7 +21,7 @@ const submitInquiry = () => {
           explore a way forward.
         </p>
       </div>
-      <img class="page-hero-logo" src="/images/logo.jpeg" alt="Sewak rising-arrow monogram" />
+      <img class="page-hero-logo" :src="assetUrl('images/logo.jpeg')" alt="Sewak rising-arrow monogram" />
     </section>
 
     <section class="contact contact-page-content">

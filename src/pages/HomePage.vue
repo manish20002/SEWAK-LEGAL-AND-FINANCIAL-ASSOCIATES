@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import { assetUrl } from '../utils/assets'
+</script>
+
 <template>
   <div>
     <section class="hero">
@@ -20,7 +24,7 @@
 
       <div class="hero-visual">
         <div class="hero-image-frame">
-          <img src="/images/banner.jpeg" alt="Sewak Legal & Financial Associates LLP" />
+          <img :src="assetUrl('images/banner.jpeg')" alt="Sewak Legal & Financial Associates LLP" />
         </div>
         <div class="visual-caption">
           <span class="caption-number">01</span>

@@ -687,7 +687,7 @@ h2 {
   overflow: hidden;
   background:
     linear-gradient(rgba(13, 34, 57, 0.96), rgba(13, 34, 57, 0.96)),
-    url('/images/banner.jpeg') center / cover;
+    var(--banner-image) center / cover;
   color: #fff;
   text-align: center;
 }

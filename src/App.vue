@@ -6,6 +6,7 @@ import GstAdvisoryPage from './pages/GstAdvisoryPage.vue'
 import HomePage from './pages/HomePage.vue'
 import MsmeLitigationPage from './pages/MsmeLitigationPage.vue'
 import WorkPage from './pages/WorkPage.vue'
+import { assetUrl } from './utils/assets'
 import { loadPageViewAnalytics, removeAnalyticsCookies } from './utils/googleAnalytics'
 
 type SitePage = 'home' | 'about' | 'work' | 'contact' | 'gst' | 'msme'
@@ -80,7 +81,7 @@ const saveCookieConsent = (value: CookieConsent) => {
     <header class="site-header">
       <a class="brand" href="./index.html" aria-label="Sewak Legal & Financial Associates home" @click="closeMenu">
         <span class="brand-mark">
-          <img src="/images/logo.jpeg" alt="" />
+          <img :src="assetUrl('images/logo.jpeg')" alt="" />
         </span>
         <span class="brand-name">
           <strong>SEWAK</strong>
@@ -142,7 +143,7 @@ const saveCookieConsent = (value: CookieConsent) => {
       <div class="footer-main">
         <div class="footer-identity">
           <a class="footer-brand" href="./index.html">
-            <img src="/images/logo.jpeg" alt="" />
+            <img :src="assetUrl('images/logo.jpeg')" alt="" />
             <span>SEWAK<small>LEGAL &amp; FINANCIAL ASSOCIATES LLP</small></span>
           </a>
           <p>Legal clarity. Financial confidence.</p>
